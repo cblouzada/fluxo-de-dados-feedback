@@ -21,6 +21,7 @@ export const Form = styled.div`
 export const Input = styled.input`
     padding: 8px;
     margin-left: 16px;
+    border-radius: 5px;
 `
 
 export const SendButton = styled.button`
@@ -28,7 +29,7 @@ export const SendButton = styled.button`
     border-radius: 8px;
     padding: 16px;
     width: 200px;
-    border: none;
+    border-radius: none;
     color: white;
     margin-top: 32px;
     cursor: pointer;
@@ -36,6 +37,7 @@ export const SendButton = styled.button`
 
 export const StyledLabel = styled.label`
     width: 300px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
